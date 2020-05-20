@@ -8,10 +8,8 @@ const app = require('./app');
 dotenv.config({ path: 'config.env' });
 
 //create databse connection query
-const Database = process.env.DATABASE.replace(
-  '<PASSWORD>',
-  process.env.DATABASE_PASSWORD
-);
+const Database =
+  'mongodb+srv://John:fBEzCL5IeouEkQfl@cluster0-elnh0.mongodb.net/SEER?retryWrites=true&w=majority';
 
 //connect to MongoDB
 mongoose
