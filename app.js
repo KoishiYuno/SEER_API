@@ -2,8 +2,12 @@
 const express = require('express');
 const searchRouter = require('./routers/articleRouter');
 const submitRouter = require('./routers/userRouter');
+const cors = require('cors');
 
 const app = express();
+
+app.use(cors());
+app.options('*', cors());
 
 //middlewares
 app.use(express.json());
