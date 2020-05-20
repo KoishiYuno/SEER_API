@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Quantum size effect in semiconductor microcrystals",
+        "detail": "1",
+        "status": true
+        
+    },
+    {
+        "title": "Interaction terms in logit and probit models",
+        "detail": "2",
+        "status": true
+        
+    },
+    {
+        "title": "Surface stress in solids",
+        "detail": "22",
+        "status": false
+        
+    },
+    {
+        "title": "Computing interaction effects and standard errors in logit and probit models",
+        "detail": "12",
+        "status": false
+    },
+    {
+        "title": "Computing interaction effects and standard errors in logit and probit models123",
+        "detail": "121",
+        "status": false
+    }
+]
